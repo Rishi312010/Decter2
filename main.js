@@ -41,7 +41,7 @@ if(status != ""){
         text(object[i].label + " " + percent + "%" , object[i].x +15 , object[i].y +15);
         noFill();
         stroke("#FF0000");
-        rect(object[i].x , object[i].y , object[i],width , objects[i].height);
+        rect(object[i].x , object[i].y , object[i],width , object[i].height);
     }
 }
 }
